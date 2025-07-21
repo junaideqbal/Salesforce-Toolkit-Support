@@ -1,0 +1,36 @@
+name: 💡 Feature Request
+description: Suggest a new idea or improvement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: What's the new feature or improvement?
+      placeholder: A short summary of your request.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this feature important?
+      description: Explain the need or problem it solves.
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you envision the feature working.
+      placeholder: It could work like...
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Where does this apply?
+      options:
+        - Browser Extension
+        - Documentation Site
+        - Salesforce Integration
+        - Other
