@@ -1,0 +1,20 @@
+name: 💬 General Feedback
+description: Share open thoughts, opinions, or appreciation
+title: "[Feedback]: "
+labels: [feedback]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What's on your mind?
+      description: Share any feedback, thoughts, or suggestions.
+      placeholder: I love this project because...
+
+  - type: dropdown
+    id: sentiment
+    attributes:
+      label: Your sentiment
+      options:
+        - 👍 Positive
+        - 😐 Neutral
+        - 👎 Negative
